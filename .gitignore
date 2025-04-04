@@ -1,0 +1,30 @@
+# Ignorar archivos .class
+*.class
+
+# Ignorar directorios de compilación
+/bin/
+/build/
+/out/
+target/
+
+# Ignorar archivos generados por el IDE
+.idea/
+*.iml
+*.log
+
+# Ignorar archivos de configuración de Eclipse
+.classpath
+.project
+.settings/
+
+# Ignorar archivos de NetBeans
+nbproject/private/
+
+# Ignorar archivos de VS Code
+.vscode/
+
+# Ignorar archivos de Maven y Gradle
+.mvn/
+target/
+.gradle/
+build/
