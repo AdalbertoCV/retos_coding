@@ -1,3 +1,5 @@
+// estructura de datos de apoyo para los retos
+
 import java.util.ArrayList;
 import java.util.List;
 

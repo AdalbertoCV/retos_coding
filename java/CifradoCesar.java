@@ -1,3 +1,12 @@
+// Descripción del reto: Cifrado César con lista doblemente enlazada
+
+// Este programa implementa el cifrado César utilizando una lista doblemente enlazada para 
+// representar el alfabeto. El cifrado César es un tipo de cifrado por sustitución en el que
+// cada letra del texto es desplazada un número fijo de lugares en el alfabeto. En este caso, 
+// se utiliza una lista doblemente enlazada para almacenar el alfabeto, lo que permite 
+// realizar el desplazamiento de manera eficiente, tanto hacia adelante como hacia atrás.
+
+
 import java.util.Scanner;
 
 public class CifradoCesar {

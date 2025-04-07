@@ -1,3 +1,11 @@
+// Reto: Juego de la Casa Encantada
+// Descripción: Desarrolla un juego en Java en el que el jugador debe navegar por una casa encantada 
+// resolviendo acertijos para avanzar y evitar obstáculos como fantasmas. 
+// En cada habitación, el jugador debe resolver operaciones matemáticas para poder moverse. 
+// El objetivo es llegar a la habitación de los dulces, lo que marca el final del juego.
+// Utiliza matrices para representar la casa y genera movimientos aleatorios dentro de un espacio limitado (4x4).
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

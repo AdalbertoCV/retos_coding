@@ -1,3 +1,10 @@
+// Reto: Caminos únicos en una cuadrícula
+// Descripción: Implementa un programa en Java que calcule el número de caminos únicos 
+// para moverse desde la esquina superior izquierda hasta la esquina inferior derecha 
+// de una cuadrícula de tamaño `m x n`. Solo se permiten movimientos hacia la derecha y hacia abajo. 
+// Utiliza programación dinámica para optimizar el cálculo.
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

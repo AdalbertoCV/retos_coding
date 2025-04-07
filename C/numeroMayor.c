@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+// Reto: Comparación de dos números
+// Descripción: Escribe un programa en C que solicite al usuario dos números enteros 
+// y determine cuál de los dos es mayor o si son iguales. 
+// Usa estructuras condicionales `if`, `else if` y `else` para mostrar el resultado correspondiente.
+
 int main() {
     int num1;
     int num2;

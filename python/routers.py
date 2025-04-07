@@ -1,3 +1,10 @@
+# Reto: Algoritmo de Kruskal para Árbol de Expansión Mínimo
+# Descripción: Implementa el algoritmo de Kruskal en Python para encontrar el Árbol de Expansión Mínimo (MST) 
+# en un grafo no dirigido y ponderado. El programa debe recibir el número de routers (nodos) y cables (aristas), 
+# luego procesar las conexiones y calcular el costo mínimo necesario para conectar todos los routers.
+# Utiliza la estructura de conjuntos disjuntos (Union-Find) para optimizar la unión y búsqueda de conjuntos.
+
+
 parent = []
 rank = []
 def init(n):

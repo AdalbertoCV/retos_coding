@@ -1,3 +1,16 @@
+// Descripción del reto: Invertir un número
+
+// Este programa toma un número entero (que puede ser negativo) como entrada, invierte los dígitos de ese número y lo imprime como resultado.
+// Si el número es negativo, el signo negativo se mantiene al frente del número invertido.
+
+// Ejemplo de salida:
+// Entrada: 12345
+// Salida: 54321
+
+// Entrada: -6789
+// Salida: -9876
+
+
 import java.util.Scanner;
 
 public class InvertNumber {

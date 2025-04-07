@@ -1,3 +1,16 @@
+// Descripción del reto: Imprimir números pares en un rango dado
+
+// Este programa recibe dos números enteros, uno como "inicio" y otro como "fin", e imprime todos los números pares dentro de ese rango, incluyendo ambos límites si son pares.
+// Si el rango es inválido (es decir, si el número de inicio es mayor que el número de fin o el inicio es negativo), el programa imprime un arreglo vacío ("[]").
+
+// Ejemplo de salida:
+// Entrada: 1 10
+// Salida: [2, 4, 6, 8, 10]
+
+// Entrada: 5 3
+// Salida: []
+
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

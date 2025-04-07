@@ -1,3 +1,10 @@
+# Reto: Conversión de sistemas numéricos
+# Descripción: Escribe un programa en Python que reciba un número y su sistema numérico 
+# (binario, decimal o hexadecimal) y lo convierta a los otros dos sistemas. 
+# El programa debe leer un número `n` de casos de prueba e imprimir los resultados en formato específico. 
+# Usa las funciones `int()` con base, `bin()` y `hex()` para realizar las conversiones.
+
+
 n = int(input())
 for i in range (n):
     caso = input().split(" ")

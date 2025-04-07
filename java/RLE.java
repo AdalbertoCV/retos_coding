@@ -1,3 +1,14 @@
+// Descripción del reto: Implementación de compresión y descompresión usando el algoritmo Run-Length Encoding (RLE)
+
+// El algoritmo RLE es una técnica de compresión de datos en la que se reemplazan secuencias consecutivas de caracteres idénticos con un solo carácter seguido de la cantidad de repeticiones.
+// El reto consiste en comprimir una cadena de texto usando este algoritmo y luego descomprimirla para restaurar la cadena original.
+
+// Ejemplo de entrada y salida:
+// Entrada: "aaabbbccccdd"
+// Salida (comprimido): "a3b3c4d2"
+// Salida (descomprimido): "aaabbbccccdd"
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

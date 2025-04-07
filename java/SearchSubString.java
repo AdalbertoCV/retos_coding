@@ -1,3 +1,16 @@
+// Descripción del reto: Buscar la cantidad de ocurrencias de una subcadena en una cadena principal
+
+// El reto consiste en implementar un programa que cuente cuántas veces aparece una subcadena en una cadena principal.
+// Para ello, el programa recibe una cadena de texto y una subcadena, luego imprime la cantidad de veces que la subcadena aparece en la cadena principal.
+
+// Ejemplo de entrada y salida:
+// Entrada: 
+// "ababcabcabc"
+// "abc"
+// Salida:
+// Number of occurrences: 3
+
+
 import java.util.Scanner;
 
 public class SearchSubString {

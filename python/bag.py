@@ -1,3 +1,10 @@
+# Reto: Problema de la Mochila (Knapsack Problem)
+# Descripción: Implementa el algoritmo de programación dinámica para resolver el problema de la mochila. 
+# Dado un número de casos de prueba, cada uno con una cantidad de paquetes (juguetes con peso y valor), 
+# encuentra la máxima cantidad de juguetes que se pueden llevar sin exceder un peso máximo permitido (50 kg). 
+# Utiliza una tabla bidimensional para calcular la solución óptima.
+
+
 def kS(W, wt, val):
     n = len(val)
     table = [[0 for x in range(W + 1)] for x in range(n + 1)]
@@ -23,4 +30,4 @@ for i in range(casos):
         juguete = input().split(" ")
         amounts.append(int(juguete[0]))
         weights.append(int(juguete[1]))
-    print(kS(maximo, weights, amounts), "brinquedos")
+    print(kS(maximo, weights, amounts), "juguetes")

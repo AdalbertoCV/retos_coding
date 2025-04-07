@@ -1,3 +1,9 @@
+# Reto: Encontrar el número faltante en una secuencia
+# Descripción: Escribe un programa en Python que reciba una secuencia de números desordenados 
+# y determine si falta un número en la secuencia consecutiva. 
+# Si falta un número, el programa debe imprimirlo; de lo contrario, debe imprimir "imposible".
+
+
 n = int(input())
 numeros = input()
 desordenados = numeros.split(" ")

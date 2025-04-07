@@ -1,3 +1,15 @@
+// Descripción del reto: Obtener los primeros tres dígitos después del punto decimal de una operación matemática
+
+// Este programa tiene como objetivo calcular el valor de la expresión (3 + sqrt(5))^n para un valor n dado,
+// y luego extraer los tres primeros dígitos después del punto decimal del resultado.
+
+// Ejemplo de entrada:
+// 2
+
+// Ejemplo de salida:
+// 003
+
+
 import java.util.*;
 public class digitos{
 	public static void main(String args[]){

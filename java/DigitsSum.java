@@ -1,3 +1,21 @@
+// Descripción del reto: Sumar los dígitos de un número
+
+// Este programa tiene como objetivo recibir un número entero positivo e imprimir la suma de sus dígitos, 
+// o bien, si el número tiene solo un dígito, imprimir el número tal cual.
+
+// Ejemplo de entrada:
+// 1234
+
+// Ejemplo de salida:
+// 10
+
+// Ejemplo de entrada:
+// 5
+
+// Ejemplo de salida:
+// 5
+
+
 import java.util.Scanner;
 
 public class DigitsSum {

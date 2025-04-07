@@ -1,3 +1,22 @@
+// Descripción del reto: Contar vocales y consonantes en un texto dado
+
+// En este reto, el programa cuenta cuántas vocales y cuántas consonantes hay en un texto ingresado por el usuario.
+// El programa distingue entre vocales y consonantes, ignorando el caso de las letras (mayúsculas o minúsculas).
+
+// Ejemplo de entrada y salida:
+// Entrada: 
+// "Hola Mundo"
+// Salida:
+// Número de vocales en el texto: 4
+// Número de consonantes en el texto: 5
+
+// Entrada: 
+// "abc efg"
+// Salida:
+// Número de vocales en el texto: 2
+// Número de consonantes en el texto: 6
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

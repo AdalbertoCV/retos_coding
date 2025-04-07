@@ -1,3 +1,5 @@
+// estrcutura de datos de apoyo para los retos
+
 public class Nodo {
     String valor;
     Nodo nodo_izquierdo;
