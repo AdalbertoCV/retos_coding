@@ -7,6 +7,13 @@
 // realizar el desplazamiento de manera eficiente, tanto hacia adelante como hacia atrás.
 
 
+// entrada: Hola Mundo! 3
+// salida: krod pxqr!
+
+// entrada: krod pxqr! -3
+// salida: hola mundo!
+
+
 import java.util.Scanner;
 
 public class CifradoCesar {

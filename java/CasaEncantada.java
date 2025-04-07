@@ -5,6 +5,10 @@
 // El objetivo es llegar a la habitación de los dulces, lo que marca el final del juego.
 // Utiliza matrices para representar la casa y genera movimientos aleatorios dentro de un espacio limitado (4x4).
 
+// Hay 3 tipos diferentes de habitaciones
+// enigma: se responde un acertijo para moverse
+// fantasma: se responden dos acertijos para movers
+// dulces: se gana el juego
 
 import java.io.BufferedReader;
 import java.io.IOException;
