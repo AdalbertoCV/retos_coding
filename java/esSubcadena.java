@@ -32,24 +32,10 @@ public class esSubcadena {
     }
 
     public static boolean isSubString(String subString, String string){
-        if (subString.length() > string.length()){
-            return false;
-        }
         int limite = subString.length();
-        int coincidencias = 0;
-        int substring_index_start = 0;
-        for (int i = 0; i < string.length(); i ++){
-            for (int j = substring_index_start; j <subString.length();){
-                if (String.valueOf(subString.charAt(j)).equals(String.valueOf(string.charAt(i)))){
-                    coincidencias++;
-                    if (coincidencias == limite){
-                        return true;
-                    }
-                    substring_index_start++;
-                } else{
-                    coincidencias = 0;
-                }
-                break;
+        for (int i = 0; i < string.length() - 1; i++){
+            if (string.substring(i, i + limite).equals(subString)){
+                return true;
             }
         }
         return false;
